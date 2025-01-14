@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header img {
+    max-width: 6%;
+    height: auto;
+    margin-right: 1em;
+}
+
+
+header {
+    background-color: rgb(0,191,255);
+    height: 40vh;
+    display: flex;
+    flex-direction: column; /*Gör att h1 inte står vertikalt!*/
+    background-image: url("https://images.unsplash.com/photo-1526683140978-77fb2955333d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 70vh;
+}
+
+header ul {
+    font-family: "Emblema One", serif;
+    font-size: 1.2em;
+    list-style: none; 
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header li {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,255);
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(0,0,255);
+    font-size: 1.3rem;
+    padding: 0.3em 1em;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: "Emblema One", serif;
+    font-size: 4em;
+    color: black(0,255,255);
+    text-align: center;
+    margin-top: 1em;
+}
+
+main {
+    background-image: url("https://images.unsplash.com/photo-1529831129093-0fa4866281ee?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5em;
+}
+
+h2{
+    font-family: "Playwrite AU SA", serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 10%;
+}
+
+main div {
+    
+    background-color: rgba(0, 0, 0, 0.5); /* Genomskinlig svart bakgrund */
+    color: white; /* Ändra textfärgen till vit för bättre kontrast */
+    padding: 2em;
+    margin: 1em;
+    border-radius: 1em;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 20vh;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 2em; 
+}
+
+h3 {
+    background-color: rgb(0, 0, 0);
+    font-family: "Playwrite AU SA", serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 1%;
+}
+
+.General {
+    color: white;
+    font-size: small;
+    text-align: left; 
+}
+
+.quote {
+    color: white;
+    font-family: "Playwrite AU SA", serif;
+    font-size: 1em;
+    text-align: right; 
+    max-width: 41%; 
+    margin-left: 0%;
+}
+
+.rights {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: "Playwrite AU SA", serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+
